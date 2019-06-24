@@ -100,7 +100,7 @@
   switch (tableViewStyle) {
     case UITableViewStylePlain:
       return RATreeViewStylePlain;
-    case UITableViewStyleGrouped:
+    default: // UITableViewStyleGrouped, UITableViewStyleInsetGrouped (on iOS 12)
       return RATreeViewStyleGrouped;
   }
 }
