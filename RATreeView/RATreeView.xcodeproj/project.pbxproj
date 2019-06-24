@@ -181,7 +181,9 @@
 				B53B974217D3840800A05E2F /* Frameworks */,
 				B53B974117D3840800A05E2F /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		B53B974117D3840800A05E2F /* Products */ = {
 			isa = PBXGroup;
@@ -413,6 +415,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B53B973717D3840800A05E2F;
