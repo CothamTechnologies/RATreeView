@@ -77,18 +77,18 @@
 		83F7033D22D379F30093871B /* CTRATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7033922D379F30093871B /* CTRATableViewCell.m */; };
 		83F7033E22D379F30093871B /* CTRATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7033A22D379F30093871B /* CTRATableViewCell.xib */; };
 		83F7033F22D379F30093871B /* CTRATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7033A22D379F30093871B /* CTRATableViewCell.xib */; };
-		83F7034022D379F40093871B /* CTRATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7033B22D379F30093871B /* CTRATableViewCell.h */; };
-		83F7034122D379F40093871B /* CTRATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7033B22D379F30093871B /* CTRATableViewCell.h */; };
-		83F7034722D37A190093871B /* RADataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034222D37A190093871B /* RADataObject.h */; };
-		83F7034822D37A190093871B /* RADataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034222D37A190093871B /* RADataObject.h */; };
+		83F7034022D379F40093871B /* CTRATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7033B22D379F30093871B /* CTRATableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F7034122D379F40093871B /* CTRATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7033B22D379F30093871B /* CTRATableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F7034722D37A190093871B /* RADataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034222D37A190093871B /* RADataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F7034822D37A190093871B /* RADataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034222D37A190093871B /* RADataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83F7034922D37A190093871B /* RADataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7034322D37A190093871B /* RADataObject.m */; };
 		83F7034A22D37A190093871B /* RADataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7034322D37A190093871B /* RADataObject.m */; };
 		83F7034B22D37A190093871B /* RATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7034422D37A190093871B /* RATableViewCell.xib */; };
 		83F7034C22D37A190093871B /* RATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7034422D37A190093871B /* RATableViewCell.xib */; };
 		83F7034D22D37A190093871B /* RATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7034522D37A190093871B /* RATableViewCell.m */; };
 		83F7034E22D37A190093871B /* RATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7034522D37A190093871B /* RATableViewCell.m */; };
-		83F7034F22D37A190093871B /* RATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034622D37A190093871B /* RATableViewCell.h */; };
-		83F7035022D37A190093871B /* RATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034622D37A190093871B /* RATableViewCell.h */; };
+		83F7034F22D37A190093871B /* RATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034622D37A190093871B /* RATableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F7035022D37A190093871B /* RATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F7034622D37A190093871B /* RATableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +236,14 @@
 			children = (
 				B53B976917D3843600A05E2F /* RATreeView.h */,
 				B53B976A17D3843600A05E2F /* RATreeView.m */,
+				83F7034222D37A190093871B /* RADataObject.h */,
+				83F7034322D37A190093871B /* RADataObject.m */,
+				83F7033B22D379F30093871B /* CTRATableViewCell.h */,
+				83F7033922D379F30093871B /* CTRATableViewCell.m */,
+				83F7034622D37A190093871B /* RATableViewCell.h */,
+				83F7034522D37A190093871B /* RATableViewCell.m */,
+				83F7033A22D379F30093871B /* CTRATableViewCell.xib */,
+				83F7034422D37A190093871B /* RATableViewCell.xib */,
 				B59F730E198D6E42006BAED0 /* Private Files */,
 			);
 			path = RATreeView;
@@ -244,14 +252,6 @@
 		B59F730E198D6E42006BAED0 /* Private Files */ = {
 			isa = PBXGroup;
 			children = (
-				83F7033B22D379F30093871B /* CTRATableViewCell.h */,
-				83F7033922D379F30093871B /* CTRATableViewCell.m */,
-				83F7033A22D379F30093871B /* CTRATableViewCell.xib */,
-				83F7034222D37A190093871B /* RADataObject.h */,
-				83F7034322D37A190093871B /* RADataObject.m */,
-				83F7034622D37A190093871B /* RATableViewCell.h */,
-				83F7034522D37A190093871B /* RATableViewCell.m */,
-				83F7034422D37A190093871B /* RATableViewCell.xib */,
 				B59F730F198D6E42006BAED0 /* RABatchChanges.h */,
 				B59F7310198D6E42006BAED0 /* RABatchChanges.m */,
 				06B2F7AF1BFBE2EF004AE326 /* RABatchChangeEntity.h */,
