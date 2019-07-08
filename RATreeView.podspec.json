@@ -26,5 +26,9 @@
       "RATreeView/RATreeView/RATableViewCell.h",
       "RATreeView/RATreeView/CTRATableViewCell.h"
   ],
+  "resources": [
+      "RATreeView/RATreeView/RATableViewCell.xib",
+      "RATreeView/RATreeView/CTRATableViewCell.xib"
+  ],
   "requires_arc": true
 }
