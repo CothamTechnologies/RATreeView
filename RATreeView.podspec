@@ -32,12 +32,10 @@ Pod::Spec.new do |spec|
         'RATreeView/RATreeView/CTRATableViewCell.h'
     ]
 
-    spec.resource_bundles = {
-        'RATreeView' => [
-            'RATreeView/RATreeView/RATableViewCell.xib',
-            'RATreeView/RATreeView/CTRATableViewCell.xib'
-        ]
-    }
+    spec.resources = [
+        'RATreeView/RATreeView/RATableViewCell.xib',
+        'RATreeView/RATreeView/CTRATableViewCell.xib'
+    ]
 
     spec.requires_arc = true
 end
