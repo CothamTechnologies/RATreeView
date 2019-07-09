@@ -27,14 +27,6 @@ Pod::Spec.new do |spec|
 
     spec.public_header_files = [
         'RATreeView/RATreeView/RATreeView.h',
-        'RATreeView/RATreeView/RADataObject.h',
-        'RATreeView/RATreeView/RATableViewCell.h',
-        'RATreeView/RATreeView/CTRATableViewCell.h'
-    ]
-
-    spec.resources = [
-        'RATreeView/RATreeView/RATableViewCell.xib',
-        'RATreeView/RATreeView/CTRATableViewCell.xib'
     ]
 
     spec.requires_arc = true
